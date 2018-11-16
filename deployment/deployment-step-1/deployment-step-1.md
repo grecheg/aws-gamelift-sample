@@ -15,4 +15,23 @@ So, we shall begin with creating our DynamoDB table.
 5.	Once the table is created, we will create a stream by clicking Manage Stream button. By default, stream is disabled. 
 
 ![Table Overview](./dynamo_table_overview.png)
-![Table Overview](./dynamo
+![Manage Stream](./dynamo_manage_stream_setting.png)
+
+6.	Select New and old images as view type, and click enable.
+7.	Now, we have the base complete. Now, let’s create a test data sample. In the table, open the Items tab.
+
+![Table Items](./dynamo_table_items.png)
+
+8.	Click Create Item button to create a new DynamoDB row item.
+9.	From the Editor, you can click the + button, followed by Append, and the data type. We will repeat to insert something that looks like below.
+
+![Item Dropdown](./dynamo_create_item_dropdown.png)
+
+10.	 We will add some data like below, and click Save button to save.
+
+![Sample Item](./dynamo_sample_item.png)
+
+Preparation for DynamoDB is now completed. Now, let’s go for ElastiCache. This will store the ranking information of this stack so we don’t DDB for every query all the time.
+1.	Again, from AWS Console, let’s head to https://console.aws.amazon.com/elasticache/
+2.	Create a new ElastiCache cluster. We will use Redis engine.
+3.	Enter the necessary information as below picture. (We won’t test cluster mode)
