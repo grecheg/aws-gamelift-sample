@@ -14,7 +14,7 @@ This repository contains a sample game project using Amazon GameLift and AWS ser
 
 
 ## Deployment
- - Play and Deployment guide [here](deployment/deployment.md)
+ - Play and Deployment guide [here](deployment/deployment-step-1/deployment-step-1.md)
 
 
 ## Serverless version with FlexMatch
