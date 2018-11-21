@@ -122,3 +122,5 @@ Finally, we will create a handful of IAM roles that we will be using along with 
 12.	When all is created, it will look like below from Role console.
 
 ![IAM create role Lambda list](./iam_create_role_lambda_list.png)
+
+- To proceed to the next step, click [here](../deployment-step-2/deployment-step-2.md)
