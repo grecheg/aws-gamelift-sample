@@ -42,19 +42,19 @@ Now, we need to create a S3 backed web site to host the files responsible for th
 3.	Open main.js in a text editor, and edit the API end point we just created above. (line 48)
 4.	Save and close the file, and upload the content of the directory into the bucket.
 
-![S3 Website Structure](./S3-website-structure.png)
+![S3 Website Structure](./s3-website-structure.png)
  
 5.	When uploading, make sure they have public read access.
 
-![S3 Object Upload](./S3-object-upload.png)
+![S3 Object Upload](./s3-object-upload.png)
  
 6.	As for the bucket, we need to enable Static website hosting.
 
-![S3 Properties](./S3-properties.png)
+![S3 Properties](./s3-properties.png)
  
 7.	Enable Static website hosting, with index.html as the index document name, and click save.
 
-![S3 Static Website](./S3-static-website.png)
+![S3 Static Website](./s3-static-website.png)
  
 8.	Once the upload is finished, you will be greeted with a simple page when you open the web server end point link as can be seen. However, at the bottom of the screen Score Board section is empty.
 9.	Now we have the web site URL, we need to go back to the API Gateway to add a CORS setting to allow this piece of data – ranking board information can be inserted in the web page.
