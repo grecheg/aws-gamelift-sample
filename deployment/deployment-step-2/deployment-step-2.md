@@ -101,3 +101,5 @@ In short, we cannot check the content of the Redis cache. However, we can check 
 6.	Then, switch to the DynamoDB console https://console.aws.amazon.com/dynamodb and open the GomokuPlayerInfo table. You can see under the Items tab that the item corresponding to the entered JSON data has been reflected (if there was an item corresponding to the same PlayerName, Win and Score should have been increased by 1 and 100 respectively).
 
 (Data update can take 1 - 2 minutes because the execution period of the Lambda function created before is 1 minute)
+
+- To proceed to the next step, click [here](../deployment-step-3/deployment-step-3.md)
