@@ -120,7 +120,7 @@ We have configured Gamelift to act as our game server. Now, we will need to crea
 17.	Login to the instance via RDP and open the firewall settings from control panel. Set up to allow inbound traffic for TCP on port 5999 from everywhere.
 18.	While you are logged in, copy the content of binaries\matchmaker (or binaries/matchmaker for those not in Windows land) in to the matchmaker server. (3 .dll files, 1 .ini file, and 2 .exe files)
 19.	From the match maker server, run the vc_redist.x64.exe to install the runtime required for the matchmaker server.
-20.	Double check the config.ini and make sure it is pointing to the correct GameLift alias and other resources as well.
+20.	Double check the config.ini and make sure it is pointing to the correct GameLift alias as well as other resources.
 21.	Start the GomokuMatchMaker.exe and we are just a click away from getting the full stack up and running.
 
 - To proceed to the next step, click [here](../deployment-step-5/deployment-step-5.md)
