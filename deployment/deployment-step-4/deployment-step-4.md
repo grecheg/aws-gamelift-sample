@@ -89,7 +89,7 @@ We have configured Gamelift to act as our game server. Now, we will need to crea
 7.	Role name, give any role name you can identify later, and click Create.
 8.	Now, from the roles page, click on the GomokuMatchMaker role to add additional policy for gamelift.
  
-![GameLift EC2 Role](./iam-ec2-role-permissions.png)
+![GameLift EC2 Role](./iam-ec2-role-permission.png)
 
 9.	We can see AmazonDynamoDBFullAccess already attached. So to add Gamelift policy, open Inline Policies section and click the link to create a new policy.
  
